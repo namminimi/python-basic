@@ -28,3 +28,27 @@ print(a[5])
 print(a[0:2])
 print(a[:3])
 print(a[2:])
+
+#문자열 포매팅 : 문자열안에 어떤 값을 넣기
+#문자열 포맷코드
+#%d 정수 %s 문자열 %f 소수
+num = 3
+str3 = "어제"
+print("나는 %s 사과 %d개를 먹었다" % (str3, num))
+
+#소수점 표현하기
+print("%0.4f" %3.123456789)
+
+#format함수 사용하기
+num2 = 10
+print("나는 {0} 사과 {1}개를 넣었다" .format("어제",num))
+
+print("나는 {0} 사과 {num2}개를 넣었다" .format(str3,num2=30))
+number3 = 20
+print("현재 온도는 {0}입니다. 내일 온도는 {to}입니다 " .format(number3, to=3))
+
+#f.포메팅
+name = "green"
+age = 30
+print(f'나의 이름은 {name}이고 나이는 {age}이다')
+print(f'내년이면 내 나이는 {age+1}이됩니다')
