@@ -303,20 +303,59 @@ def add(a,b):
 re = add(1,2) ,<<안에 인수라고함
 re ====> 결과값 3
 
+==============================================3/6
+
+문제----------- 이어서  복습이라 적어놈day03 ex07_function.py
+인수로 주는 모든수의 평균값을 구하는 함수를 작성하시오
+def avgNumber():
+
+avgNumber(1,2,3)
+avgNumber(5,6,7,9,8)
+
+
+람다 함수
+실습
+
+
+print 시작 ======== day04 ex01_print.py
 
 
 
+파일 읽고 쓰기 ======== day04 ex02_file.py
+1. 파일 생성하기
+open(파일이름, 파일열기모드)
+r ---읽기 모드
+w ---쓰기 모드
+a ---추가 모드
+
+2. 파일읽기
+readline() 파일의 첫번째 줄 반환
+readlines() 모든 줄을 읽어서 각각의 줄을 요소로 갖는 리스트를 반환
+read() 파일의 내용 전체를 문자열로 반환 
+
+
+ex03_addFile.py 추가 모드 설명실습
+
+전체적인 실습 ex04_userText.py
+
+연습문제 ===ex05_연습문제.py
+다음과 같은 내용을 지닌 test2.txt파일이 있다
+이파일의 내용중 java라는 문자열을 python으로 변경해서 저장하시오
+Life is too short
+you need java
+
+f = open('test2.txt','r')
+body = (		)
+f.close()
+
+body = (		)
+f=open('test2.txt',		)
+f.write(body)
+f.close()
 
 
 
-
-
-
-
-
-
-
-
+all(), any() 함수, divmod(a, b), enumerate()======= ex06_builtinFun.py
 
 
 
